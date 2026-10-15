@@ -1,0 +1,100 @@
+body {
+    background-image:
+        linear-gradient(rgba(5, 25, 55, 0.25),
+                        rgba(5, 25, 55, 0.25)),
+        url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=85");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: rgba(11, 45, 80, 0.95);
+    padding: 18px;
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+.my-form {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.97);
+    box-shadow: 0 4px 12px #0003;
+}
+
+.my-form .card-header {
+    background: #0b2d50;
+    color: white;
+}
+
+.my-form .card-body {
+    padding: 15px;
+}
+
+.my-form label {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.my-form .form-control {
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.options-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.options-container label {
+    margin: 0;
+}
+
+#SubmitBtn {
+    background: #0b2d50;
+    border-color: #0b2d50;
+}
+
+.passenger-heading {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 4px black;
+}
+
+.table {
+    background: white;
+    font-size: 12px;
+    box-shadow: 0 4px 12px #0003;
+}
+
+.table thead th {
+    background: #0b2d50;
+    color: white;
+    padding: 10px 6px;
+    white-space: nowrap;
+}
+
+.table tbody td {
+    color: #173656;
+    padding: 9px 6px;
+    vertical-align: middle;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
